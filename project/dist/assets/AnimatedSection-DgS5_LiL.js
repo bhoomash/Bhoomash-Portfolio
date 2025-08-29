@@ -1,0 +1,1 @@
+import{j as o}from"./three-vendor-CGO51d60.js";import{m as e}from"./animation-vendor-Ddsb3srB.js";const a=({children:t,delay:i=0})=>o.jsx(e.div,{initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:.6,delay:i,ease:"easeOut"},children:t});export{a as A};
