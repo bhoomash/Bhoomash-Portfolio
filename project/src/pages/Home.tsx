@@ -73,7 +73,7 @@ const services = [
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Link 
-                    to="/About" 
+                    to="/about" 
                     className="px-6 py-3 border border-gray-300 dark:border-gray-600 hover:border-blue-600 dark:hover:border-blue-400 text-gray-900 dark:text-gray-100 font-medium rounded-lg transition-colors backdrop-blur-sm"
                   >
                     About me
@@ -90,12 +90,12 @@ className="relative block"
 >
    <div className="relative w-80 h-80 mx-auto">
       {/* Decorative border */}
-      <div className="absolute -left-4 -top-4 w-full h-full border- border-none-600 dark:border-blue-400 rounded-full transform -rotate-2" />
+      <div className="absolute -left-4 -top-4 w-full h-full border-2 border-blue-600 dark:border-blue-400 rounded-full transform -rotate-2" />
       
       {/* Profile image */}
       <img 
         src="/bhoomash bprofile.png" 
-        alt="Profile of Bhoomash" 
+        alt="Bhoomash - Full Stack Developer, professional headshot showing a friendly software engineer" 
         className="w-full h-full object-cover rounded-full relative z-10 shadow-lg"
       />
     </div>

@@ -104,13 +104,16 @@ const ContactForm: React.FC = () => {
               name="name"
               value={formState.name}
               onChange={handleChange}
+              aria-describedby={errors.name ? "name-error" : undefined}
+              aria-invalid={!!errors.name}
               className={`w-full px-4 py-3 rounded-lg border dark:bg-gray-800 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ${
                 errors.name ? 'border-red-500' : 'border-gray-300'
               }`}
               placeholder="Your name"
+              required
             />
             {errors.name && (
-              <p className="mt-1 text-sm text-red-500">{errors.name}</p>
+              <p id="name-error" className="mt-1 text-sm text-red-500" role="alert">{errors.name}</p>
             )}
           </div>
           

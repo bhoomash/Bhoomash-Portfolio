@@ -1,7 +1,7 @@
 import React from 'react';
-import { Moon, Sun } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { useTheme } from '../context/ThemeContext';
+import { Sun, Moon } from 'lucide-react';
+import { useTheme } from '../hooks/useTheme';
 
 const ThemeToggle: React.FC = () => {
   const { theme, toggleTheme } = useTheme();

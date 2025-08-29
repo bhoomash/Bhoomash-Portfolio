@@ -1,6 +1,7 @@
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useRef } from 'react';
 import { Mesh } from 'three';
+import * as THREE from 'three';
 import { OrbitControls, Stars } from '@react-three/drei';
 
 function AnimatedSphere() {
@@ -37,7 +38,7 @@ function FloatingCubes() {
 
   return (
     <group ref={groupRef}>
-      {Array.from({ length: 50 }).map((_, i) => (
+      {Array.from({ length: 25 }).map((_, i) => (
         <mesh
           key={i}
           position={[

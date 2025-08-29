@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
             ))}
           </ul>
           <motion.a 
-            href="/Bhoomash resume.pdf" 
+            href="/bhoomash-resume.pdf" 
             download
             className="flex items-center gap-2 px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-colors"
             whileHover={{ scale: 1.05 }}
@@ -131,7 +131,7 @@ const Navbar: React.FC = () => {
             ))}
             <li>
               <a 
-                href="/Bhoomash resume.pdf" 
+                href="/bhoomash-resume.pdf" 
                 download
                 className="flex items-center gap-2 w-full py-2 mt-2 text-center rounded-md bg-blue-600 text-white hover:bg-blue-700 transition-colors"
               >

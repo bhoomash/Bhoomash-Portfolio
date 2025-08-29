@@ -50,12 +50,12 @@ const About: React.FC = () => {
              <AnimatedSection>
     <div className="relative w-80 h-80 mx-auto">
       {/* Decorative border */}
-      <div className="absolute -left-4 -top-4 w-full h-full border-2 border-none-600 dark:border-blue-400 rounded-full transform -rotate-2" />
+      <div className="absolute -left-4 -top-4 w-full h-full border-2 border-blue-600 dark:border-blue-400 rounded-full transform -rotate-2" />
       
       {/* Profile image */}
       <img 
         src="/bhoomash bprofile.png" 
-        alt="Profile of Bhoomash" 
+        alt="Bhoomash - Full Stack Developer, professional headshot showing a passionate software engineer" 
         className="w-full h-full object-cover rounded-full relative z-10 shadow-lg"
       />
     </div>
@@ -93,7 +93,7 @@ const About: React.FC = () => {
               </div>
 
               <motion.a
-                href="/Bhoomash%20resume.pdf"
+                href="/bhoomash-resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow transition-transform"
                 whileHover={{ scale: 1.05 }}
