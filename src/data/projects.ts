@@ -8,7 +8,7 @@ export const allProjects: ProjectProps[] = [
     image: 'https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg',
     tags: ['mobile','React Native', 'TypeScript', 'OpenWeather', 'Python'],
     liveUrl: 'https://example.com/gogreen',
-    repoUrl: 'https://github.com/bhoomash/gogreen',
+    repoUrl: 'https://github.com/bhoomash/go-green',
     featured: true
   },
   {
@@ -18,7 +18,7 @@ export const allProjects: ProjectProps[] = [
     image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg',
     tags: ['web','HTML', 'Tailwind CSS', 'JavaScript', 'PHP', 'XAMPP'],
     liveUrl: 'https://example.com/fertilizershop',
-    repoUrl: 'https://github.com/bhoomash/fertilizer-ecommerce',
+    repoUrl: 'https://github.com/bhoomash/fertilizer-ecommerce-website',
     featured: true
   },
   {
@@ -28,7 +28,7 @@ export const allProjects: ProjectProps[] = [
     image: 'https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg',
     tags: ['web','React', 'JavaScript', 'AES', 'Encryption', 'Security'],
     liveUrl: 'https://lock-bin.netlify.app/',
-    repoUrl: 'https://github.com/bhoomash/lockbin',
+    repoUrl: 'https://github.com/bhoomash/lock-bin',
     featured: true
   },
   {
@@ -38,7 +38,7 @@ export const allProjects: ProjectProps[] = [
     image: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg',
     tags: ['web', 'React', 'Animations', 'UI/UX', 'TypeScript'],
     liveUrl: 'https://bhoomash.me/',
-    repoUrl: 'https://github.com/bhoomash/portfolio-official',
+    repoUrl: 'https://github.com/bhoomash/Bhoomash-Portfolio',
     featured: true
   },
   {
