@@ -7,7 +7,6 @@ export const allProjects: ProjectProps[] = [
     description: 'AI-powered React Native app offering seasonal crop suggestions and real-time weather insights using OpenWeatherMap API.',
     image: 'https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg',
     tags: ['mobile','React Native', 'TypeScript', 'OpenWeather', 'Python'],
-    liveUrl: 'https://example.com/gogreen',
     repoUrl: 'https://github.com/bhoomash/go-green',
     featured: true
   },
@@ -17,7 +16,6 @@ export const allProjects: ProjectProps[] = [
     description: 'Full-stack web application for selling fertilizers and farming tools with cart and product filtering support.',
     image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg',
     tags: ['web','HTML', 'Tailwind CSS', 'JavaScript', 'PHP', 'XAMPP'],
-    liveUrl: 'https://example.com/fertilizershop',
     repoUrl: 'https://github.com/bhoomash/fertilizer-ecommerce-website',
     featured: true
   },
@@ -40,7 +38,24 @@ export const allProjects: ProjectProps[] = [
     liveUrl: 'https://bhoomash.me/',
     repoUrl: 'https://github.com/bhoomash/Bhoomash-Portfolio',
     featured: true
-  },
+  },{
+  id: 'project-3',
+  title: 'MentorLink (Skill-Based Mentorship Platform)',
+  description: 'A MERN-stack platform connecting skilled mentors with learners, featuring role-based dashboards, secure authentication, and real-time guidance features.',
+  image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg',
+  tags: ['mobile', 'React-Native', 'Node.js', 'MongoDB', 'Grid-fs', 'Express'],
+  repoUrl: 'https://github.com/bhoomash/mentorlink',
+  featured: true
+},
+{
+  id: 'project-4',
+  title: 'Public Way Service (Government Service Portal)',
+  description: 'A digital service portal that streamlines public service requests with authentication, request tracking, and admin-side verification modules.',
+  image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg',
+  tags: ['web','React', 'FASTAPI', 'MongoDB', 'RAG'],
+  repoUrl: 'https://github.com/bhoomash/public-way-service',
+  featured: true
+},
   {
     id: 'project-6',
     title: 'FestivalKart (Diwali E-Commerce)',
