@@ -12,26 +12,27 @@ export const allProjects: ProjectProps[] = [
   },
   {
     id: 'project-2',
-    title: 'E-Commerce Platform (Fertilizer)',
+    title: 'FarmTech (E-Commerce)',
     description: 'Full-stack web application for selling fertilizers and farming tools with cart and product filtering support.',
     image: 'https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg',
-    tags: ['web','HTML', 'Tailwind CSS', 'JavaScript', 'PHP', 'XAMPP'],
-    repoUrl: 'https://github.com/bhoomash/fertilizer-ecommerce-website',
+    tags: ['web','React', 'Tailwind CSS', 'Next', 'Node', 'Express'],
+    liveUrl: 'https://farm-tech-erode.vercel.app',
+    repoUrl: 'https://github.com/bhoomash/FarmTech',
     featured: true
   },
   {
     id: 'project-3',
-    title: 'LockBin (Secure Encrypted Messages)',
+    title: 'Flash Vault (Secure Encrypted Messages)',
     description: 'React web app for encrypted message sharing with password-based AES encryption and temporary shareable links.',
     image: 'https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg',
     tags: ['web','React', 'JavaScript', 'AES', 'Encryption', 'Security'],
-    liveUrl: 'https://lock-bin.netlify.app/',
+    liveUrl: 'https://flash-vault-eight.vercel.app',
     repoUrl: 'https://github.com/bhoomash/lock-bin',
     featured: true
   },
   {
     id: 'project-5',
-    title: 'Portfolio Website',
+    title: 'Portfolio',
     description: 'Clean and animated React portfolio showcasing my projects, skills, and background.',
     image: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg',
     tags: ['web', 'React', 'Animations', 'UI/UX', 'TypeScript'],
@@ -65,7 +66,16 @@ export const allProjects: ProjectProps[] = [
     liveUrl: 'https://festivalkart.vercel.app/',
     repoUrl: 'https://github.com/bhoomash/festivalkart',
     featured: true
-  }
+  },{
+  id: 'project-voice-notes',
+  title: 'VoiceNotes AI',
+  description: 'AI-powered voice notes and transcription web application. Record, transcribe, and manage voice notes with real-time speech-to-text powered by AssemblyAI.',
+  image: 'https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg',
+  tags: ['Next.js', 'React', 'JavaScript', 'Tailwind CSS', 'MongoDB', 'AssemblyAI', 'Clerk Auth'],
+  liveUrl: 'https://flash-vault-eight.vercel.app',
+  repoUrl: 'https://github.com/bhoomash/audionote',
+  featured: true
+}
   ];
 
 export const featuredProjects = allProjects.filter(project => project.featured);
