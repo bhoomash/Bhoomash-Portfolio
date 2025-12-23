@@ -72,7 +72,7 @@ export const allProjects: ProjectProps[] = [
   description: 'AI-powered voice notes and transcription web application. Record, transcribe, and manage voice notes with real-time speech-to-text powered by AssemblyAI.',
   image: 'https://images.pexels.com/photos/3587478/pexels-photo-3587478.jpeg',
   tags: ['Next.js', 'React', 'JavaScript', 'Tailwind CSS', 'MongoDB', 'AssemblyAI', 'Clerk Auth'],
-  liveUrl: 'https://flash-vault-eight.vercel.app',
+  liveUrl: 'https://audio-note-llm.vercel.app/',
   repoUrl: 'https://github.com/bhoomash/audionote',
   featured: true
 }
